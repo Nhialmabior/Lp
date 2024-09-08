@@ -1,0 +1,229 @@
+/* Basic resets */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    list-style: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: white;
+    line-height: 1.6;
+    color: darkblue;
+}
+
+/* Header container */
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    color: white;
+    background-color: darkblue;
+    width: 100%;
+    position: fixed;
+}
+
+/* Logo and brand styling */
+.logo-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    vertical-align: bottom;
+}
+header h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.logo-container img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+.logo-container .brand-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.navbar{
+    box-shadow: 4px 4px 8px solid black;
+}
+.navbar ul {
+    display: flex;
+    list-style: none;
+    display: flex;
+}
+
+.navbar li {
+    margin: 0 10px;
+    border-bottom: none;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.active {
+    background-color: lightblue;
+}
+.navbar a:hover {
+    color:white;
+}
+/* Hero Section */
+.hero-section {
+    background-color: white;
+    color: darkblue;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.hero-section h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.hero-section p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+/* Search Bar */
+.search-bar {
+    padding: 20px;
+    text-align: center;
+}
+
+.search-bar input[type="text"] {
+    padding: 10px;
+    width: 60%;
+    max-width: 500px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.search-bar button {
+    padding: 10px 20px;
+    background-color: darkblue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    border-style: inset;
+}
+
+.search-bar button:hover {
+    background-color: #0056b3;
+}
+
+/* Featured Courses */
+.featured-courses {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: white;
+}
+
+.courses-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.course-card {
+    background-color: white;
+    border: 1px solid none;
+    border-radius: 5px;
+    width: 300px;
+    padding: 20px;
+    text-align: left;
+}
+
+.course-card img {
+    max-width: 100%;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+/* Categories */
+.categories {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: white;
+}
+
+.categories-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.category-card {
+    background-color: white;
+    color: darkblue;
+    font-weight: bold;
+}
+
+/*testemonials sections*/
+section{
+    background-color: white;
+    text-align: center;
+}
+section a{
+    text-decoration: none;
+    color: blue;
+}
+footer{
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+}
+footer a{
+    background-color: darkblue;
+    color: white;
+    text-decoration: none;
+    align-items: center;
+    text-align: center;
+}
+/* ... existing CSS ... */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.user-bar {
+    position: relative;
+}
+
+.user-bar:hover .user-dropdown {
+    display: flex;
+}
